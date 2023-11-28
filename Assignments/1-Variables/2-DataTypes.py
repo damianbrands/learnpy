@@ -11,6 +11,8 @@
 #   With booleans come new operators woohoo:
 #   '==' equal to
 #   '!=' not equal to
+#   '>' greater than (returns bool)
+#   '<' smaller than (returns bool)
 #   Both of these operators result in a boolean value so True or False
 
 # Python automatically sets the datatype for you as long as you write it correctly
