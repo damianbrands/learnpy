@@ -38,3 +38,15 @@ print(5 == 5.00000)
 print("-------------------------")
 print(5 + True)
 print(5 + False)
+
+# You can also change the typing of something by casting.
+# You can cast by writing the desired type with parentheses in front of your data like this:
+
+print("-------------------------")
+print(int("500"))  # This will be an int, NOT a string
+print(str(5.0))  # This will be a string, NOT a float
+
+# To see the datatype we will wrap a type() around it:
+
+print(type(int("500")))
+print(type(str(5.0)))
