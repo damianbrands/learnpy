@@ -18,6 +18,7 @@
 # Python automatically sets the datatype for you as long as you write it correctly
 # You can see the datatype of a value by saying type(VALUE):
 
+print("-------------------------")
 print(type(2))
 print(type(2 == 2))
 print(type("Hello"))
@@ -25,7 +26,15 @@ print(type(2.0))
 
 # Values with the same value but different DataType are NOT the same but ints and floats can still be the same.
 
+print("-------------------------")
 print("5" == 5)
 print(True == (5 == 5))
 print(5 == 5.00000)
 
+# Booleans can have two values which are both ints. True = 1, False = 0.
+# You can remember this by computers thinking in 0's and 1's.
+# Knowing this you will realize that you can add booleans to ints:
+
+print("-------------------------")
+print(5 + True)
+print(5 + False)
