@@ -5,6 +5,7 @@
 
 def firstassignment():
     # For this assignment you want to check if the number of variable B is greater than the number of variable A.
+    # HINT: Check the file Assignments/1-Variables/2-DataTypes.py
     a = 4
     b = 9
 
@@ -36,6 +37,7 @@ def thirdassignment():
         print("B is greater than A, but smaller than C")
 
     # Expected output: "B is greater than A, but smaller than C"
+
 
 firstassignment()
 secondassignment()
