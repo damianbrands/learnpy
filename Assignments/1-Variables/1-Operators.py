@@ -7,6 +7,7 @@
 # It will automatically be calculated and if you print it, the result will be printed so 2.
 # If you run the file you will see that the first printed thing is '2'.
 
+print("-------------------------")
 print(1 + 1)
 
 # Here is a list of the basic operators:
@@ -19,6 +20,7 @@ print(1 + 1)
 #       For example: 13 % 5 = 3
 #       The furthest dividing by 5 goes with whole numbers is 10 this leaves us with 3 left. (The number % gives us)
 
+print("-------------------------")
 print(1 - 1)
 print(2 * 4)
 print(9 / 3)
@@ -27,6 +29,7 @@ print(13 % 5)
 
 # the order of calculations is according to PEMDAS:
 
+print("-------------------------")
 print(5 * 10 % 20)
 
 # If you run the file you will see that all the numbers are in line with the earlier mentioned examples
